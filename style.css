@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111; /* dark background */
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Heading */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00ffc3;
+}
+
+/* Form Styles */
+form {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 195, 0.2);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input[type="text"],
+select {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: #2a2a2a;
+  color: white;
+  min-width: 200px;
+}
+
+button {
+  background-color: #00ffc3;
+  color: black;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00cfa3;
+}
+
+/* Guest List Styles */
+ul#guest-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 500px;
+}
+
+ul#guest-list li {
+  background-color: #1e1e1e;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 255, 195, 0.1);
+}
+
+ul#guest-list li span {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Remove + RSVP buttons inside list items */
+ul#guest-list button {
+  margin-left: 8px;
+}
