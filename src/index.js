@@ -9,14 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const defaultGuests = [
     { name: "caleb", category: "Friend" },
     { name: "ruto", category: "Family" },
-    { name: "mc wantam", category: "Colleague" },
-    { name: "gachietha", category: "Friend" },
-    { name: "maryah", category: "Family" },
-    { name: "evelyn", category: "Friend" },
-    { name: "eric mcoure", category: "Colleague" },
-    { name: "rodgers", category: "Friend" },
-    { name: "yusuf", category: "Colleague" },
-    { name: "mohamed", category: "Family" }
+    { name: "mc wantam", category: "Colleague" }
   ];
 
   defaultGuests.forEach(({ name, category }) => {
